@@ -50,6 +50,8 @@ Alguns vazios são normais e não foram tratados como erro: `data_cancelamento` 
 - **Economia só onde dá para comparar:** itens de Credenciamento e razões fora de 0,1 a 10 entram no volume, mas não na economia, e os percentuais são sempre soma ÷ soma.
 - **Modelo estrela** (1 fato + 4 dimensões), com chaves substitutas, `UNIQUE` nas chaves naturais, `CHECK` contra valores inválidos e `DECIMAL` para dinheiro. O banco é a segunda barreira de qualidade depois do Python.
 - **Calendário em DAX** no Power BI, sem a hierarquia automática de datas.
+- **Itens rejeitados (99):** ficam fora da fato os itens com resultado que tenham quantidade vazia ou ≤ 0, valor unitário estimado ou homologado ausente ou ≤ 0, orçamento sigiloso, total estimado menor que R$ 1, total homologado mais de 1.000 vezes o estimado, ou qualquer total acima de R$ 1 trilhão. Esses itens não são carregados no banco.
+- **Perfil do gasto:** um item é "Obras e engenharia" quando a descrição ou o objeto da compra contém, como palavra inteira, *obra*, *construção*, *reforma* ou *engenharia*. Nos demais casos, Material vira "Bens" e Serviço vira "Serviços".
 
 ## Modelo dimensional
 
