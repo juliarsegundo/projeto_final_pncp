@@ -130,8 +130,8 @@ erDiagram
 | 0. Preparação | Repositório, pastas e ambiente | 26/10 | Feito |
 | 1. Auditoria | Anotar cada problema dos dados e quantos registros afeta | 26/10 | Feito |
 | 2. Limpeza | Autoteste de `limpeza.py` com ✔ em tudo | 27/10 | Feito |
-| 3. Tabelas | Fato e dimensões batendo com a prova real | 28/10 | Fazendo |
-| 4. Banco | Banco carregado, contagens iguais, zero FK solta | 29/10 | A fazer |
+| 3. Tabelas | Fato e dimensões batendo com a prova real | 28/10 | Feito |
+| 4. Banco | Banco carregado, contagens iguais, zero FK solta | 29/10 | Feito |
 | 5. Perguntas SQL | 6 respostas conferidas | 30/10 | A fazer |
 | 6. Power BI | 15 medidas e uma história por pergunta | 31/10 a 01/11 | A fazer |
 | 7. Entrega | README, figura das Sprints e vídeo | 02/11 a 03/11 | A fazer |
