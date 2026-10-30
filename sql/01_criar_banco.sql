@@ -66,7 +66,7 @@ VALUES (-1, '__NAO_INFORMADO__', 'NAO INFORMADO', NULL, NULL);
 INSERT INTO dim_modalidade (sk_modalidade, modalidade_id, nome_modalidade)
 VALUES (-1, -1, 'Não informado');
 INSERT INTO dim_localidade (sk_localidade, uf_sigla, uf_nome, regiao)
-VALUES (-1, '--', 'Não informado', 'Não informado');
+VALUES (-1, 'XX', 'Não informado', 'Não informado');
 
 -- -----------------------------------------------------------------------------
 -- FATO: uma linha por item de contratacao, com o vencedor. Grao garantido pelo
