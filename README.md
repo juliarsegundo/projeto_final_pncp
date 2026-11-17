@@ -1,7 +1,7 @@
 # Radar PNCP: das compras públicas bagunçadas ao dashboard da Controladoria
 
 **Autora:** Julia Segundo (https://github.com/juliarsegundo) · Projeto final do Módulo 2, *Análise de Dados com Python* (SENAI)
-**Vídeo de apresentação:** [Assistir pelo Drive](https://docs.google.com/document/d/1mA9ApkX6jDMX-MtUw7VLNgH0cFZTEOotXUk3DH5dWmg/edit?usp=sharing)
+**Vídeo de apresentação:** [Assistir pelo Drive](https://drive.google.com/file/d/17lWzR6CPhbOPrHzGTnb4VnMN_hdWlTPJ/view)
 
 ## O problema
 
